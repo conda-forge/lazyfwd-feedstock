@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: lazyfwd
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/glattziehen/lazyfwd/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 800226118087c2caa5d21885e0c6d4c9a9507bfecb47e2cd43af7b92e0351756
+    sha256: e1757bc4987702bb0aa4f3e39b6fc6e49436f7f2d7ad009d4d9631607d725e52
     target_directory: src
   # go-localereader (Windows-only dependency) added its LICENSE after its last tag
   - if: win
